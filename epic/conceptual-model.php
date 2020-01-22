@@ -40,6 +40,6 @@
 	</ul>
 	<p><strong>Weak ENTITY</strong></p>
 		<ul><li>Quantity, produce name, zip</li></ul>
-		<img src="Capture.jpg" alt="Cap" height="300" width="500">
+		<img src="ERD/Capture.JPG" alt="ERD" height="300" width="500">
 	</body>
 </html>
