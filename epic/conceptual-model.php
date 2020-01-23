@@ -11,35 +11,32 @@
 			<p>Entities & Attributes</p></div>
 <p><strong>Profile</strong></p>
 <ul>
-<li>shopID (primary key)</li>
+   <li>shopId (primary key)</li>
 	<li>shopEmail</li>
 	<li>shopActivationToken (for account verification)</li>
-	<li>shopHash (for account password)</li></ul>
-		<p><strong>Orders</strong></p>
+	<li>shopHash (for account password)</li>
+<li>shopName</li></ul>
+
+		<p><strong>Product (Strong Entity)</strong></p>
 		<ul>
-			<li>customerID (primary key)</li>
+			<li>productId (primary key)</li>
+			<li>productQuantity</li>
+			<li>productPrice</li>
+			<li>productShopId</li>
+			<li>productName</li></ul>
+		<p><strong>Customer (Strong Entity)</strong></p>
+		<ul>	<li>customerId (primary key)</li>
 			<li>customerFirstname</li>
 			<li>customerLastname</li>
 			<li>customerStreet</li>
 			<li>customerCity</li>
 			<li>customerState</li>
 			<li>customerZip</li>
-			<li>orderID</li>
-			<li>orderDate</li>
-		</ul>
-		<p><strong>Product (Weak Entity)</strong></p>
-		<ul>
-			<li>productID (primary key)</li>
-			<li>quantity</li>
-			<li>productName</li></ul>
+			<li>customerActivation</li>
+			<li>customerHash</li></ul>
 		<p><i>Relations</i><p>
+
 		<ul><li>The Etsy seller profile has a one-to-many relation to the product</li></ul>
-<p><strong>Strong Entities</strong></p>
-	<ul>
-		<li>shopID, customerID, and productID</li>
-	</ul>
-	<p><strong>Weak ENTITY</strong></p>
-		<ul><li>Quantity, produce name, zip</li></ul>
-		<img src="ERD/Capture.JPG" alt="ERD" height="300" width="500">
+		<img src="ERD/FinalERD.PNG" alt="ERD" height="250" width="350">
 	</body>
 </html>
