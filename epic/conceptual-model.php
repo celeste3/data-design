@@ -38,6 +38,6 @@
 
 		<ul><li>The Etsy seller profile has a one-to-many relation to the product</li></ul>
 		<img src="ERD/FinalERD.PNG" alt="ERD" height="250" width="350">
-		<a href="./index.php">Index</a>
+		<h2><a href="./index.php">Index</a></h2>
 	</body>
 </html>
