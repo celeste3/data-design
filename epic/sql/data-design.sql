@@ -10,20 +10,20 @@ CREATE TABLE profile (
 );
 
 CREATE TABLE product(
-   productId,
+   productId BINARY,
    productQuantity,
    productPrice,
    produceName,
 );
 
 CREATE TABLE customer(
-   customerId,
-   customerFirstname,
-   customerLastname,
-   customerStreet,
-   customerCity,
-   customerState,
-   customerZip,
+   customerId BINARY,
+   customerFirstname VARCHAR(30),
+   customerLastname VARCHAR(30),
+   customerStreet VARCHAR(30),
+   customerCity VARCHAR(60),
+   customerState VARCHAR(30),
+   customerZip VARCHAR(15),
    customerActivation,
    customerHash,
    primary key (customerId)
