@@ -1,4 +1,4 @@
-CREATE TABLE profile (
+CREATE TABLE shop (
 	shopId BINARY(25),
 	shopEmail VARCHAR(128),
 	shopAcivationToken char(35),

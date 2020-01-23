@@ -9,13 +9,14 @@
 		<p><i>Conceptual Model</i></p>
 		<div class="entities">
 			<p>Entities & Attributes</p></div>
-<p><strong>Profile</strong></p>
+<p><strong>Shop</strong></p>
 <ul>
    <li>shopId (primary key)</li>
+	<li>shopProductId</li>
 	<li>shopEmail</li>
 	<li>shopActivationToken (for account verification)</li>
-	<li>shopHash (for account password)</li>
-<li>shopName</li></ul>
+<li>shopName</li>
+<li>customerId</li></ul>
 
 		<p><strong>Product (Strong Entity)</strong></p>
 		<ul>
@@ -37,7 +38,7 @@
 		<p><i>Relations</i><p>
 
 		<ul><li>The Etsy seller profile has a one-to-many relation to the product</li></ul>
-		<img src="ERD/FinalERD.PNG" alt="ERD" height="250" width="350">
+		<img src="ERD/" alt="ERD" height="250" width="350">
 		<h2><a href="./index.php">Index</a></h2>
 	</body>
 </html>
