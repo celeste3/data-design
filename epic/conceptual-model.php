@@ -11,12 +11,12 @@
 			<p>Entities & Attributes</p></div>
 <p><strong>Shop</strong></p>
 <ul>
-   <li>shopId (primary key)</li>
+   <li>shopId</li>
 	<li>shopProductId</li>
 	<li>shopEmail</li>
 	<li>shopActivationToken (for account verification)</li>
 <li>shopName</li>
-<li>customerId</li></ul>
+<li>customerId (foreign key)</li></ul>
 
 		<p><strong>Product (Strong Entity)</strong></p>
 		<ul>
@@ -26,7 +26,7 @@
 			<li>productShopId</li>
 			<li>productName</li></ul>
 		<p><strong>Customer (Strong Entity)</strong></p>
-		<ul>	<li>customerId (primary key)</li>
+		<ul>	<li>customerId (foreign key)</li>
 			<li>customerFirstname</li>
 			<li>customerLastname</li>
 			<li>customerStreet</li>
@@ -38,7 +38,7 @@
 		<p><i>Relations</i><p>
 
 		<ul><li>The Etsy seller profile has a one-to-many relation to the product</li></ul>
-		<img src="ERD/" alt="ERD" height="250" width="350">
+		<img src="ERD/ERD.PNG" alt="ERD" height="250" width="350">
 		<h2><a href="./index.php">Index</a></h2>
 	</body>
 </html>
