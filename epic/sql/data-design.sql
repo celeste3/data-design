@@ -8,7 +8,7 @@ CREATE TABLE shop (
 	UNIQUE (shopEmail),
 	primary key (shopId)
 );
-
+-- this a comment in SQL
 CREATE TABLE product(
    productId BINARY,
    productQuantity,
@@ -24,7 +24,7 @@ CREATE TABLE customer(
    customerCity VARCHAR(60),
    customerState VARCHAR(30),
    customerZip VARCHAR(15),
-   customerActivation,
-   customerHash,
+   customerActivation CHAR (25),
+   customerHash CHAR (20),
    primary key (customerId)
 );
